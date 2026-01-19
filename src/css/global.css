@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --gray-50: oklch(98.5% 0 0);
+    --gray-100: oklch(96.7% 0.001 286.375);
+    --gray-200: oklch(92% 0.004 286.32);
+    --gray-300: oklch(87.1% 0.006 286.286);
+    --gray-400: oklch(70.5% 0.015 286.067);
+    --gray-500: oklch(55.2% 0.016 285.938);
+    --gray-600: oklch(44.2% 0.017 285.786);
+    --gray-700: oklch(37% 0.013 285.805);
+    --gray-800: oklch(27.4% 0.006 286.033);
+    --gray-900: oklch(21% 0.006 285.885);
+    --gray-950: oklch(14.1% 0.005 285.823);
+
+    --orange-50: oklch(98% 0.016 73.684);
+    --orange-100: oklch(95.4% 0.038 75.164);
+    --orange-200: oklch(90.1% 0.076 70.697);
+    --orange-300: oklch(83.7% 0.128 66.29);
+    --orange-400: oklch(75% 0.183 55.934);
+    --orange-500: oklch(70.5% 0.213 47.604);
+    --orange-600: oklch(64.6% 0.222 41.116);
+    --orange-700: oklch(55.3% 0.195 38.402);
+    --orange-800: oklch(47% 0.157 37.304);
+    --orange-900: oklch(40.8% 0.123 38.172);
+    --orange-950: oklch(26.6% 0.079 36.259);
+
+    --white: #ffffff;
+
+    --ff: "Oxygen", sans-serif;
+}
+
+body {
+    background-color: var(--gray-900);
+    color: var(--gray-50);
+    font-family: var(--ff);
+    height: 100vh;
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+}
